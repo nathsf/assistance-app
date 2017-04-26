@@ -1,35 +1,54 @@
-* {
+/** {
 	font-family: 'Montserrat', sans-serif;
+}*/
+* {
+		font-family: "san francisco" !important;
 }
+
 .bg-form { 
-	background-image: url("img/banner_testimonio1.png");
-    background-size: cover;
+	background-image: url("img/pattern.png");
+
     height: 798px;
 	 }
+
+.bg-form .text-center img { width: 50%; }
 .container {
 	padding-top: 5%;
 }
 .bg {
 	background-image: url("img/header2.png");
-    background-size: cover;
+   
     height: 798px;
 }
 form { 
-	padding-top: 10%;
+	padding-top: 7%;
  }
 
 h3 {
 	padding-bottom: 5%;
-	color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+
 }
 input[type=submit], input[type=text] {
 	width: 100%;
 	font-size: 2em;
-	border: 1px solid #171d3c;
-	margin-top: 2%;
+
+	
+}
+input[type=submit]{
+	padding: 4% 8%;
+	margin-top: 4%;
+	border-radius: 5px;
+	font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 input[type=text] {
-	padding: 1% 8%;
+	padding: 2.8% 8%;
+	margin-top: 2%;
+	border-radius: 5px;
+	border: 2px solid #bebfc0;
 
 }
 .delete {
@@ -37,13 +56,40 @@ input[type=text] {
     width: 62.5%;
     padding-top: 5%;
     padding-bottom: 7%;
+    color: #464a4c;
+    background-color: rgba(255, 255, 255, 0.02);
+    font-family: "san francisco" !important;
+    font-weight: 300;
 }
 
 .number {
 	font-size: 3.5em;
-	width: 30.5%;
+    width: 23%;
+    position: relative;
+    border: 2px solid rgba(88, 88, 88, 0.25);
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50%;
+    background: rgba(247, 247, 249, 0.2);
+    font-family: "san francisco" !important;
+    font-weight: 300;
 }
+
+
 
 .pb-1 {
 	padding-bottom: 1.5%;
+}
+
+/*ipad size*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	.delete {
+    font-size: 2.5em;
+    width: 62%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 }
