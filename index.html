@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"> 
+  <title>Asistance Register v.0.0.01</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<section class="bg-form">
+  <div class="container">
+      <div class="col-sm-12">
+        <img src="img/logo.png" />
+      </div>
+      <form action="" method="" name="vform" class=" row">
+
+        <div class="col-sm-6">
+          <div class="col-sm-12 pb-1">
+            <input type="button" class="btn  number" name="1" value="1" id="1" onClick=addNumber(this); />
+            <input type="button" class="btn number" name="2" value="2" id="2" onClick=addNumber(this); />
+            <input type="button" class="btn number" name="3" value="3" id="3" onClick=addNumber(this); />
+          </div>
+          <div class="col-sm-12 pb-1">
+            <input type="button" class="btn number" name="4" value="4" id="4" onClick=addNumber(this); />
+            <input type="button" class="btn number" name="5" value="5" id="5" onClick=addNumber(this); />    
+            <input type="button" class="btn number" name="6" value="6" id="6" onClick=addNumber(this); />
+          </div>
+          <div class="col-sm-12 pb-1">
+            <input type="button" class="btn number" name="7" value="7" id="7" onClick=addNumber(this); />
+            <input type="button" class="btn number" name="8" value="8" id="8" onClick=addNumber(this); />
+            <input type="button" class="btn number" name="9" value="9" id="9" onClick=addNumber(this); />
+          </div>
+          <div class="col-sm-12 pb-1">
+            <input type="button" class="btn number" name="0" value="0" id="0" onClick=addNumber(this); />
+            <input type="button" class="btn delete" name="borrar" value="borrar" id="delete" onClick=form.reset(this); />
+          </div>
+          
+        </div>
+        <div class="col-sm-6">
+          <h3>Registre su número de DNI para tomar su asistencia.</h3>
+          <input class="" id=mvar type="text" value="" name="mvar" pattern="[0-9]{8}" required /><br />
+          <input type="submit" value="Enviar" class="btn-primary btn" />
+        </div>
+        
+      </form>
+        
+  </div>
+</section>
+
+<script type="text/javascript" src="main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

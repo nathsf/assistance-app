@@ -1,0 +1,49 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+.bg-form { 
+	background-image: url("img/banner_testimonio1.png");
+    background-size: cover;
+    height: 798px;
+	 }
+.container {
+	padding-top: 5%;
+}
+.bg {
+	background-image: url("img/header2.png");
+    background-size: cover;
+    height: 798px;
+}
+form { 
+	padding-top: 10%;
+ }
+
+h3 {
+	padding-bottom: 5%;
+	color: white;
+}
+input[type=submit], input[type=text] {
+	width: 100%;
+	font-size: 2em;
+	border: 1px solid #171d3c;
+	margin-top: 2%;
+}
+input[type=text] {
+	padding: 1% 8%;
+
+}
+.delete {
+	font-size: 2.5em;
+    width: 62.5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.number {
+	font-size: 3.5em;
+	width: 30.5%;
+}
+
+.pb-1 {
+	padding-bottom: 1.5%;
+}
