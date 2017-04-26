@@ -2,20 +2,21 @@
 <html>
 <head>
   <meta charset="UTF-8"> 
-  <title>Asistance Register v.0.0.01</title>
+  <title>Assistance Register v.0.0.01</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="sanfrancisco-font.css" type="text/css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <section class="bg-form">
   <div class="container">
-      <div class="col-sm-12">
+      <div class="col-sm-12 text-center">
         <img src="img/logo.png" />
       </div>
-      <form action="" method="" name="vform" class=" row">
+      <form action="" method="" name="vform" class=" row ">
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 text-center">
           <div class="col-sm-12 pb-1">
             <input type="button" class="btn  btn-default number" name="1" value="1" id="1" onClick=addNumber(this); />
             <input type="button" class="btn btn-default number" name="2" value="2" id="2" onClick=addNumber(this); />
@@ -32,8 +33,10 @@
             <input type="button" class="btn btn-default  number" name="9" value="9" id="9" onClick=addNumber(this); />
           </div>
           <div class="col-sm-12 pb-1">
-            <input type="button" class="btn btn-default  number" name="0" value="0" id="0" onClick=addNumber(this); />
-            <input type="button" class="btn btn-default  delete" name="borrar" value="borrar" id="delete" onClick=form.reset(this); />
+            <input type="button" class="btn number" name="0" value="0" id="0" onClick=addNumber(this); />
+          </div>
+          <div class="col-sm-12">
+            <input type="button" class="btn delete" name="borrar" value="cancelar" id="delete" onClick=form.reset(this); />
           </div>
           
         </div>
